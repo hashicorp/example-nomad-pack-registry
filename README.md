@@ -1,4 +1,4 @@
-# Example Nomad pack Registry
+# Example Nomad Pack Registry
 
 This repository is meant to be used as a reference when writing custom pack registries for [Nomad Pack](https://github.com/hashicorp/nomad-pack).
 

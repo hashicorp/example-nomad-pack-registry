@@ -18,9 +18,9 @@ Optionally, it can configure a Consul service.
 
 If the `register_consul_service` is unset or set to true, the Consul service will be registered.
 
-Several load balancers in the [The Nomad Pack Community Registry](https://github.com/hashicorp/nomad-pack-community-registry/blob/main/packs/traefik/README.md) are configured to connect to this service by default.
+Several load balancers in the [The Nomad Pack Community Registry](https://github.com/hashicorp/nomad-pack-community-registry) are configured to connect to this service by default.
 
-The [NginX](https://github.com/hashicorp/nomad-pack-community-registry/tree/main/packs/nginx/nginx/README.md) and [HAProxy](https://github.com/hashicorp/nomad-pack-community-registry/tree/main/packs/haproxy/haproxy/README.md) packs are configured to balance the Consul service "hello-world-service", which is th default value for the "consul_service_name" variable.
+The [NginX](https://github.com/hashicorp/nomad-pack-community-registry/tree/main/packs/nginx/README.md) and [HAProxy](https://github.com/hashicorp/nomad-pack-community-registry/tree/main/packs/haproxy/README.md) packs are configured to balance the Consul service "hello-world-service", which is th default value for the "consul_service_name" variable.
 
 The [Fabio](https://github.com/hashicorp/nomad-pack-community-registry/tree/main/packs/fabio/README.md) and [Traefik](https://github.com/hashicorp/nomad-pack-community-registry/tree/main/packs/traefik/traefik/README.md) packs are configured to search for Consul services with the tags found in the default value of the "consul_service_tags" variable.
 

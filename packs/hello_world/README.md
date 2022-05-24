@@ -7,7 +7,7 @@ This pack is a simple Nomad job that runs as a service and can be accessed via H
 To change the message this server responds with, change the "message" variable when running the pack.
 
 ```
-nomad-pack run hello_world --var message="Hola Mundo!"
+nomad-pack run hello_world --var 'message="Hola Mundo!"'
 ```
 
 This tells Nomad Pack to tweak the `MESSAGE` environment variable that the service reads from.
